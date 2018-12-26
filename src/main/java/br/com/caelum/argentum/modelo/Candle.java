@@ -20,6 +20,7 @@ public final class Candle {
 		this.maximo = maximo;
 		this.volume = volume;
 		this.data = data;
+		this.error = 0;
 	}
 
 	public double getAbertura() {
