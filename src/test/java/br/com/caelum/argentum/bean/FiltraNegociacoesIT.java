@@ -81,7 +81,7 @@ public class FiltraNegociacoesIT {
 	@Test
 	public void verificaResultadosFiltradosNaTabela()
 			throws InterruptedException {
-		driver.navigate().to(HTTP_LOCALHOST_8080 + "/argentum-web/index.xhtml");
+		driver.navigate().to(HTTP_LOCALHOST_8080 + "/index.xhtml");
 
 		List<WebElement> linhasDaTabelaDeNotificacoes = driver.findElements(By
 				.xpath("//*[@id='tabelaNegociacoes']/div[2]/table/tbody/tr"));
