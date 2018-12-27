@@ -41,8 +41,7 @@ public class NegociacaoTest {
 		Calendar tarde = new GregorianCalendar(2011, 10, 20, 15, 30);
 
 		Negociacao negociacao = new Negociacao(40.0, 100, manha);
-		//Assert.assertTrue(negociacao.isMesmoDia(tarde));
-		Assert.assertTrue(false);
+		Assert.assertTrue(negociacao.isMesmoDia(tarde));
 	}
 	
 	@Test
